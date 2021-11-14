@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/myapp/static/css/main.d643a397.chunk.css",
+    "main.js": "/myapp/static/js/main.a35610b9.chunk.js",
+    "main.js.map": "/myapp/static/js/main.a35610b9.chunk.js.map",
+    "runtime-main.js": "/myapp/static/js/runtime-main.d1c4da28.js",
+    "runtime-main.js.map": "/myapp/static/js/runtime-main.d1c4da28.js.map",
+    "static/js/2.3b45fd31.chunk.js": "/myapp/static/js/2.3b45fd31.chunk.js",
+    "static/js/2.3b45fd31.chunk.js.map": "/myapp/static/js/2.3b45fd31.chunk.js.map",
+    "static/js/3.79dad52d.chunk.js": "/myapp/static/js/3.79dad52d.chunk.js",
+    "static/js/3.79dad52d.chunk.js.map": "/myapp/static/js/3.79dad52d.chunk.js.map",
+    "index.html": "/myapp/index.html",
+    "static/css/main.d643a397.chunk.css.map": "/myapp/static/css/main.d643a397.chunk.css.map",
+    "static/js/2.3b45fd31.chunk.js.LICENSE.txt": "/myapp/static/js/2.3b45fd31.chunk.js.LICENSE.txt",
+    "static/media/clearGrid.b35036f2.mp4": "/myapp/static/media/clearGrid.b35036f2.mp4",
+    "static/media/clearPath.b3e59a76.mp4": "/myapp/static/media/clearPath.b3e59a76.mp4",
+    "static/media/createWalls.8c85f28a.mp4": "/myapp/static/media/createWalls.8c85f28a.mp4",
+    "static/media/Node.css": "/myapp/static/media/triangletwo-right.c7b52e1e.svg",
+    "static/media/drawMaze.0172c601.mp4": "/myapp/static/media/drawMaze.0172c601.mp4",
+    "static/media/select_algorithm.e3847a79.mp4": "/myapp/static/media/select_algorithm.e3847a79.mp4",
+    "static/media/select_mazes.3f62dec7.mp4": "/myapp/static/media/select_mazes.3f62dec7.mp4",
+    "static/media/select_speed.05c9ff89.mp4": "/myapp/static/media/select_speed.05c9ff89.mp4",
+    "static/media/visualize.d8f13dee.mp4": "/myapp/static/media/visualize.d8f13dee.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1c4da28.js",
+    "static/js/2.3b45fd31.chunk.js",
+    "static/css/main.d643a397.chunk.css",
+    "static/js/main.a35610b9.chunk.js"
+  ]
+}
