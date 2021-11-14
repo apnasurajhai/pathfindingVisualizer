@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://css.gg/chevron-down.css");
+* {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-nav {
+  display: flex;
+  background-color: #15171c;
+  height: 80px;
+  width: 100%;
+
+  align-items: center;
+}
+.logo {
+  text-align: center;
+  width: 30%;
+  color: white;
+  font-size: 1.4rem;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  overflow: hidden;
+}
+
+.dropdown1 .dropdown-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #38608f;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.4rem;
+
+  width: 160px;
+  height: 60px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.dropdown1 .dropdown-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dropdown1 .dropdown-button span:after {
+  content: url("down-arrow.png");
+  width: 10px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: white;
+}
+
+.dropdown1 .dropdown-button:hover span {
+  padding-right: 25px;
+}
+
+.dropdown1 .dropdown-button:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+.dropdown-content {
+  display: none;
+  align-items: center;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content button {
+  border: none;
+  text-align: center;
+  width: 160px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 2px;
+}
+
+.dropdown1 .show {
+  display: block;
+}
+.dropdown2 .dropdown-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #38608f;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.4rem;
+
+  width: 160px;
+  height: 60px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.dropdown2 .dropdown-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dropdown2 .dropdown-button span:after {
+  content: url("down-arrow.png");
+  width: 10px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: white;
+}
+
+.dropdown2 .dropdown-button:hover span {
+  padding-right: 25px;
+}
+
+.dropdown2 .dropdown-button:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+.dropdown2 .show1 {
+  display: block;
+}
+
+.tutorial {
+  display: inline-block;
+  background-color: #1dc0a5;
+  text-decoration: none;
+  border-radius: 4px;
+  width: 160px;
+  height: 60px;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.tutorial a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.dropdown3 .dropdown-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #38608f;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.4rem;
+
+  width: 160px;
+  height: 60px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.dropdown3 .dropdown-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dropdown3 .dropdown-button span:after {
+  content: url("down-arrow.png");
+  width: 10px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: white;
+}
+
+.dropdown3 .dropdown-button:hover span {
+  padding-right: 25px;
+}
+
+.dropdown3 .dropdown-button:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.dropdown3 .show2 {
+  display: block;
+}
+
+#myDropdown button:hover,
+#myDropdown1 button:hover,
+#myDropdown2 button:hover {
+  background-color: #38608f;
+
+  color: #f1f1f1;
+}
+.hamburger-menu {
+  display: none;
+
+  margin-top: 1rem;
+  overflow-x: hidden;
+}
+.hamburger-menu a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* Media Queries */
+@media screen and (max-width: 980px) {
+  .logo {
+    width: 100%;
+    text-align: start;
+    margin-left: 20px;
+    font-size: 1.2rem;
+  }
+  .menu {
+    display: none;
+    width: 0%;
+  }
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    right: 0;
+
+    top: 1.2rem;
+    overflow: hidden;
+  }
+  .mobile-menu {
+    position: absolute;
+    z-index: 99;
+  }
+
+  .mobile-menu {
+    left: 10%;
+
+    top: 80px;
+    height: 380px;
+    max-height: 380px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    transition: top 2s ease;
+  }
+
+  .mobile-menu > div {
+    margin-top: -120px;
+  }
+}

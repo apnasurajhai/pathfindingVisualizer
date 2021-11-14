@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+.footer {
+  bottom: 0;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#clearPath {
+  width: 140px;
+  height: 60px;
+  border: none;
+  background-color: #f44336;
+  color: white;
+  border-radius: 4px;
+  font-size: 1.4rem;
+}
+
+#clearPath:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#visualize {
+  width: 140px;
+  height: 60px;
+  border: none;
+  background-color: rgb(132, 221, 73);
+  color: white;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  transition: ease all 0.1s;
+}
+
+#visualize:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#clearGrid {
+  width: 140px;
+  height: 60px;
+  border: none;
+  background-color: #f44336;
+  color: white;
+  border-radius: 4px;
+  font-size: 1.4rem;
+}
+
+#clearGrid:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    bottom: 0;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 600px;
+  }
+  .footer button {
+    margin: 10px;
+  }
+
+  #clearGrid,
+  #clearPath,
+  #visualize {
+    width: 20rem;
+  }
+}

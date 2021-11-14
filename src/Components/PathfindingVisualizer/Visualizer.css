@@ -1,0 +1,22 @@
+/* Grid Styles when not visualizing */
+.grid {
+  font-size: 0;
+
+  pointer-events: unset;
+  margin-top: 20px;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  overflow: hidden;
+  transform: translate(-50%, 2%);
+}
+/* Grid Styles when visualizing */
+.visualizing-grid {
+  font-size: 0;
+  pointer-events: none;
+  margin-top: 20px;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 2%);
+}
