@@ -10,18 +10,18 @@ Project is live here --->  [https://apnasurajhai.github.io/pathfindingVisualizer
 
 ## Algorithms
 
-Dijkstra's Algorithm
-A* Algorithm
-Greedy Best First Search
-Breadth First Search
-Depth First Search
-Bidirectional Search
+1.Dijkstra's Algorithm
+2.A* Algorithm
+3.Greedy Best First Search
+4.Breadth First Search
+5.Depth First Search
+6.Bidirectional Search
 
 ## Mazes
 
-Recursive Division
-Recursive Vertical Division
-Recursive Horizontal Division
-Random Walls
+1.Recursive Division
+2.Recursive Vertical Division
+3.Recursive Horizontal Division
+4.Random Walls
 
 
