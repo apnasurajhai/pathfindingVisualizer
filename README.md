@@ -5,4 +5,5 @@ I have created this project using React JS Framework. You can checkout Tutorials
 
 Project is live here --->  [https://apnasurajhai.github.io/pathfindingVisualizer/](https://apnasurajhai.github.io/pathfindingVisualizer/).
 
-![Capture](https://user-images.githubusercontent.com/53009599/141796667-912422f1-19ef-4994-a6e3-e148b7c78ce8.JPG)
+
+![Capture](https://user-images.githubusercontent.com/53009599/141803342-3b3387a4-1038-42ce-93ee-341e5ba7776f.JPG)
