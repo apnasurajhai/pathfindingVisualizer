@@ -7,3 +7,21 @@ Project is live here --->  [https://apnasurajhai.github.io/pathfindingVisualizer
 
 
 ![Capture](https://user-images.githubusercontent.com/53009599/141803342-3b3387a4-1038-42ce-93ee-341e5ba7776f.JPG)
+
+## Algorithms
+
+Dijkstra's Algorithm
+A* Algorithm
+Greedy Best First Search
+Breadth First Search
+Depth First Search
+Bidirectional Search
+
+## Mazes
+
+Recursive Division
+Recursive Vertical Division
+Recursive Horizontal Division
+Random Walls
+
+
